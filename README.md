@@ -11,8 +11,6 @@ To use this template, your computer needs:
 
 ### Running the app
 
-Install the Foundation CLI with this command:
-
 ```bash
 python app.py
 ```
