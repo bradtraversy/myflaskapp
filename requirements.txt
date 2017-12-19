@@ -1,0 +1,10 @@
+click==6.7
+Flask==0.12.2
+Flask-MySQLdb==0.2.0
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+mysqlclient==1.3.12
+passlib==1.7.1
+Werkzeug==0.13
+WTForms==2.1
