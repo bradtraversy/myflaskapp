@@ -9,6 +9,11 @@ To use this template, your computer needs:
 - [Python 2 or 3](https://python.org)
 - [Pip Package Manager](https://pypi.python.org/pypi)
 
+Run the following command:
+```bash
+pip install -r requirements.txt
+```
+
 ### Running the app
 
 ```bash
