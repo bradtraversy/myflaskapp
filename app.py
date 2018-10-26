@@ -169,7 +169,9 @@ def dashboard():
     cur = mysql.connection.cursor()
 
     # Get articles
-    result = cur.execute("SELECT * FROM articles")
+    #result = cur.execute("SELECT * FROM articles")
+    # Show articles only from the user logged in 
+    result = cur.execute("SELECT * FROM articles WHERE author = %s", [session['username']])
 
     articles = cur.fetchall()
 
