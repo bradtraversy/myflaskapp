@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  sample:
+    container_name: anikevya
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 5000:5000
